@@ -1,0 +1,17 @@
+D:\REPOSITÓRIOS\PLC-Ladder-Editor\Ladder\LadderContainer\bin\Debug\net6.0-windows\LadderContainer.deps.json
+D:\REPOSITÓRIOS\PLC-Ladder-Editor\Ladder\LadderContainer\bin\Debug\net6.0-windows\LadderContainer.dll
+D:\REPOSITÓRIOS\PLC-Ladder-Editor\Ladder\LadderContainer\bin\Debug\net6.0-windows\LadderContainer.pdb
+D:\REPOSITÓRIOS\PLC-Ladder-Editor\Ladder\LadderContainer\obj\Debug\net6.0-windows\LadderContainer.csproj.AssemblyReference.cache
+D:\REPOSITÓRIOS\PLC-Ladder-Editor\Ladder\LadderContainer\obj\Debug\net6.0-windows\LadderContainer.g.cs
+D:\REPOSITÓRIOS\PLC-Ladder-Editor\Ladder\LadderContainer\obj\Debug\net6.0-windows\LadderContainer_MarkupCompile.cache
+D:\REPOSITÓRIOS\PLC-Ladder-Editor\Ladder\LadderContainer\obj\Debug\net6.0-windows\LadderContainer_MarkupCompile.lref
+D:\REPOSITÓRIOS\PLC-Ladder-Editor\Ladder\LadderContainer\obj\Debug\net6.0-windows\LadderContainer.baml
+D:\REPOSITÓRIOS\PLC-Ladder-Editor\Ladder\LadderContainer\obj\Debug\net6.0-windows\LadderContainer.g.resources
+D:\REPOSITÓRIOS\PLC-Ladder-Editor\Ladder\LadderContainer\obj\Debug\net6.0-windows\LadderContainer.GeneratedMSBuildEditorConfig.editorconfig
+D:\REPOSITÓRIOS\PLC-Ladder-Editor\Ladder\LadderContainer\obj\Debug\net6.0-windows\LadderContainer.AssemblyInfoInputs.cache
+D:\REPOSITÓRIOS\PLC-Ladder-Editor\Ladder\LadderContainer\obj\Debug\net6.0-windows\LadderContainer.AssemblyInfo.cs
+D:\REPOSITÓRIOS\PLC-Ladder-Editor\Ladder\LadderContainer\obj\Debug\net6.0-windows\LadderContainer.csproj.CoreCompileInputs.cache
+D:\REPOSITÓRIOS\PLC-Ladder-Editor\Ladder\LadderContainer\obj\Debug\net6.0-windows\LadderContainer.dll
+D:\REPOSITÓRIOS\PLC-Ladder-Editor\Ladder\LadderContainer\obj\Debug\net6.0-windows\refint\LadderContainer.dll
+D:\REPOSITÓRIOS\PLC-Ladder-Editor\Ladder\LadderContainer\obj\Debug\net6.0-windows\LadderContainer.pdb
+D:\REPOSITÓRIOS\PLC-Ladder-Editor\Ladder\LadderContainer\obj\Debug\net6.0-windows\ref\LadderContainer.dll

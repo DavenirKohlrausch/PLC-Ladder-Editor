@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PLC-Ladder-Editor/1.0.0": {
+        "dependencies": {
+          "LadderContainer": "1.0.0"
+        },
+        "runtime": {
+          "PLC-Ladder-Editor.dll": {}
+        }
+      },
+      "LadderContainer/1.0.0": {
+        "runtime": {
+          "LadderContainer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PLC-Ladder-Editor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LadderContainer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
