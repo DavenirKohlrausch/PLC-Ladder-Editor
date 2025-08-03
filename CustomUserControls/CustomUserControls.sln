@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36327.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomUserControls", "CustomUserControls.csproj", "{717A64B8-CDB0-4050-9EBE-2633BC5CFE3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{717A64B8-CDB0-4050-9EBE-2633BC5CFE3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{717A64B8-CDB0-4050-9EBE-2633BC5CFE3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{717A64B8-CDB0-4050-9EBE-2633BC5CFE3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{717A64B8-CDB0-4050-9EBE-2633BC5CFE3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8D20141-2048-4894-812C-FC9D4715671E}
+	EndGlobalSection
+EndGlobal

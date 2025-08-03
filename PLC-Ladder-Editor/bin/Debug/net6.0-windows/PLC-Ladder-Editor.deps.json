@@ -8,7 +8,9 @@
     ".NETCoreApp,Version=v6.0": {
       "PLC-Ladder-Editor/1.0.0": {
         "dependencies": {
-          "LadderContainer": "1.0.0"
+          "CustomUserControls": "1.0.0",
+          "LadderContainer": "1.0.0",
+          "CustomUserControls.Reference": "1.0.0.0"
         },
         "runtime": {
           "PLC-Ladder-Editor.dll": {}
@@ -16,7 +18,18 @@
       },
       "LadderContainer/1.0.0": {
         "runtime": {
-          "LadderContainer.dll": {}
+          "LadderContainer.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CustomUserControls.Reference/1.0.0.0": {
+        "runtime": {
+          "CustomUserControls.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -29,6 +42,11 @@
     },
     "LadderContainer/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CustomUserControls.Reference/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

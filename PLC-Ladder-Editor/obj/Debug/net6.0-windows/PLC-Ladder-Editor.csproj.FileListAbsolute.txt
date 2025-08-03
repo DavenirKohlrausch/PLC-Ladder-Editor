@@ -19,4 +19,8 @@ D:\REPOSITÓRIOS\PLC-Ladder-Editor\PLC-Ladder-Editor\obj\Debug\net6.0-windows\PL
 D:\REPOSITÓRIOS\PLC-Ladder-Editor\PLC-Ladder-Editor\obj\Debug\net6.0-windows\ref\PLC-Ladder-Editor.dll
 D:\REPOSITÓRIOS\PLC-Ladder-Editor\PLC-Ladder-Editor\bin\Debug\net6.0-windows\LadderContainer.dll
 D:\REPOSITÓRIOS\PLC-Ladder-Editor\PLC-Ladder-Editor\bin\Debug\net6.0-windows\LadderContainer.pdb
-D:\REPOSITÓRIOS\PLC-Ladder-Editor\PLC-Ladder-Editor\obj\Debug\net6.0-windows\PLC-Ladder-Editor.csproj.CopyComplete
+D:\REPOSITÓRIOS\PLC-Ladder-Editor\PLC-Ladder-Editor\obj\Debug\net6.0-windows\PLC-Ladd.A40A629C.Up2Date
+D:\REPOSITÓRIOS\PLC-Ladder-Editor\PLC-Ladder-Editor\bin\Debug\net6.0-windows\CustomUserControls.dll
+D:\REPOSITÓRIOS\PLC-Ladder-Editor\PLC-Ladder-Editor\bin\Debug\net6.0-windows\CustomUserControls.pdb
+D:\REPOSITÓRIOS\PLC-Ladder-Editor\PLC-Ladder-Editor\obj\Debug\net6.0-windows\PLC_Ladder_Editor.Properties.Resources.resources
+D:\REPOSITÓRIOS\PLC-Ladder-Editor\PLC-Ladder-Editor\obj\Debug\net6.0-windows\PLC-Ladder-Editor.csproj.GenerateResource.cache

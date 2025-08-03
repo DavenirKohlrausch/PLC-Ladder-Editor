@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\REPOSIT\u00D3RIOS\\PLC-Ladder-Editor\\CustomUserControls\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{717A64B8-CDB0-4050-9EBE-2633BC5CFE3A}|CustomUserControls.csproj|d:\\reposit\u00F3rios\\plc-ladder-editor\\customusercontrols\\uctl_ok_button.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{717A64B8-CDB0-4050-9EBE-2633BC5CFE3A}|CustomUserControls.csproj|solutionrelative:uctl_ok_button.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{717A64B8-CDB0-4050-9EBE-2633BC5CFE3A}|CustomUserControls.csproj|d:\\reposit\u00F3rios\\plc-ladder-editor\\customusercontrols\\customcontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{717A64B8-CDB0-4050-9EBE-2633BC5CFE3A}|CustomUserControls.csproj|solutionrelative:customcontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{717A64B8-CDB0-4050-9EBE-2633BC5CFE3A}|CustomUserControls.csproj|d:\\reposit\u00F3rios\\plc-ladder-editor\\customusercontrols\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{717A64B8-CDB0-4050-9EBE-2633BC5CFE3A}|CustomUserControls.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "uCtl_OK_Button.xaml",
+              "DocumentMoniker": "D:\\REPOSIT\u00D3RIOS\\PLC-Ladder-Editor\\CustomUserControls\\uCtl_OK_Button.xaml",
+              "RelativeDocumentMoniker": "uCtl_OK_Button.xaml",
+              "ToolTip": "D:\\REPOSIT\u00D3RIOS\\PLC-Ladder-Editor\\CustomUserControls\\uCtl_OK_Button.xaml",
+              "RelativeToolTip": "uCtl_OK_Button.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-03T03:00:21.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\REPOSIT\u00D3RIOS\\PLC-Ladder-Editor\\CustomUserControls\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AssemblyInfo.cs",
+              "ToolTip": "D:\\REPOSIT\u00D3RIOS\\PLC-Ladder-Editor\\CustomUserControls\\AssemblyInfo.cs",
+              "RelativeToolTip": "AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T02:58:27.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomControl1.cs",
+              "DocumentMoniker": "D:\\REPOSIT\u00D3RIOS\\PLC-Ladder-Editor\\CustomUserControls\\CustomControl1.cs",
+              "RelativeDocumentMoniker": "CustomControl1.cs",
+              "ToolTip": "D:\\REPOSIT\u00D3RIOS\\PLC-Ladder-Editor\\CustomUserControls\\CustomControl1.cs",
+              "RelativeToolTip": "CustomControl1.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T02:57:57.864Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

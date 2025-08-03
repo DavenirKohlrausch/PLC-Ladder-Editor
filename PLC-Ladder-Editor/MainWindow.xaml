@@ -4,12 +4,20 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PLC_Ladder_Editor"
-        xmlns:LadderContainer="clr-namespace:LadderContainer;assembly=LadderContainer" x:Class="PLC_Ladder_Editor.MainWindow"
+        xmlns:cc="clr-namespace:CustomUserControls;assembly=CustomUserControls"
+        xmlns:LadderContainer="clr-namespace:LadderContainer;assembly=LadderContainer" xmlns:CustomUserControls="clr-namespace:CustomUserControls;assembly=CustomUserControls" x:Class="PLC_Ladder_Editor.MainWindow"
+       
+    
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
 
         <LadderContainer:LadderContainer HorizontalAlignment="Left" Margin="190,91,0,0" VerticalAlignment="Top" Height="99" Width="172" Loaded="UserControl1_Loaded"/>
+
+
+        <CustomUserControls:uCtl_OK_Button HorizontalAlignment="Left" Margin="235,255,0,0" VerticalAlignment="Top" Height="90" Width="302"/>
+        <Image Source="/CustomUserControls;component/Images/Img__OK.png" HorizontalAlignment="Left" Height="100" Margin="572,120,0,0" VerticalAlignment="Top" Width="100"/>
+
 
 
     </Grid>

@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net6.0-windows7.0": {
+      "CustomUserControls/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CustomUserControls.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomUserControls.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "LadderContainer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -18,6 +31,11 @@
     }
   },
   "libraries": {
+    "CustomUserControls/1.0.0": {
+      "type": "project",
+      "path": "../CustomUserControls/CustomUserControls.csproj",
+      "msbuildProject": "../CustomUserControls/CustomUserControls.csproj"
+    },
     "LadderContainer/1.0.0": {
       "type": "project",
       "path": "../Ladder/LadderContainer/LadderContainer.csproj",
@@ -26,6 +44,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
+      "CustomUserControls >= 1.0.0",
       "LadderContainer >= 1.0.0"
     ]
   },
@@ -51,16 +70,20 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0-windows7.0"
+        "net6.0-windows"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
+            "D:\\REPOSITÓRIOS\\PLC-Ladder-Editor\\CustomUserControls\\CustomUserControls.csproj": {
+              "projectPath": "D:\\REPOSITÓRIOS\\PLC-Ladder-Editor\\CustomUserControls\\CustomUserControls.csproj"
+            },
             "D:\\REPOSITÓRIOS\\PLC-Ladder-Editor\\Ladder\\LadderContainer\\LadderContainer.csproj": {
               "projectPath": "D:\\REPOSITÓRIOS\\PLC-Ladder-Editor\\Ladder\\LadderContainer\\LadderContainer.csproj"
             }
@@ -71,7 +94,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net6.0-windows7.0": {
@@ -82,7 +111,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -94,7 +124,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
