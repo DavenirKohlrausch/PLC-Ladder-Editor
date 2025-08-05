@@ -5,7 +5,15 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Name="root" d:DesignWidth="240" Height="80">
-
+    
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/CustomUserControls;component/CustomUserControlsImageResources.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    
     <Button  x:Name="button"
             
             Padding="5"
@@ -106,9 +114,9 @@
 
         <!-- Conteúdo -->
         <Viewbox Stretch="Uniform"  >
-        <StackPanel Orientation="Horizontal" VerticalAlignment="Center"  Margin="0,40,0,40">
-            <Image Source="/CustomUserControls;component/Images/Img__OK.png"  Stretch="Uniform"   Margin="50,50,50,50"/>
-            <TextBlock Text="OK" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="100"  FontStyle="Normal" FontFamily="Arial Black"   FontWeight="Bold" Margin="50,0,50,0"/>
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Center"  Margin="0,0,0,0">
+            <Image Source=  "{DynamicResource ResourceKey=Img__OK}" Stretch="Uniform"   Margin="0,50,00,50"/>
+            <TextBlock Text="OK" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="200"  FontStyle="Normal" FontFamily="Arial Black"  Margin="100,0,50,0"/>
         </StackPanel>
             </Viewbox>
     </Button>

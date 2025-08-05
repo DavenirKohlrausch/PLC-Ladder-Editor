@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "t6OYYo0ke0E=",
+  "dgSpecHash": "GZvRGN5V7is=",
   "success": true,
-  "projectFilePath": "D:\\REPOSITÓRIOS\\PLC-Ladder-Editor\\Ladder\\LadderContainer\\LadderContainer.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\REPOSITORIOS\\PLC-Ladder-Editor\\Ladder\\LadderContainer\\LadderContainer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\daven\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\daven\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\daven\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512"
+  ],
   "logs": []
 }

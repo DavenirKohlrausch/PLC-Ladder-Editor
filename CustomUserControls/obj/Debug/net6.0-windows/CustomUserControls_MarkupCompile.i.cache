@@ -4,17 +4,17 @@
 library
 C#
 .cs
-D:\REPOSITÓRIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\
+D:\REPOSITORIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\
 CustomUserControls
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 
-31577493932
+5-1310968440
 
-7453335647
+82065644175
 194178300874
-Themes\Generic.xaml;uCtl_OK_Button.xaml;UserControl1.xaml;
+CustomUserControlsImageResources.xaml;Dictionary1.xaml;Themes\Generic.xaml;uCtl_OK_Button.xaml;UserControl1.xaml;
 
 False
 
