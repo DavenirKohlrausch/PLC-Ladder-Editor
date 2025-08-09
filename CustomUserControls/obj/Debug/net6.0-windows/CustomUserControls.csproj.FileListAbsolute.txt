@@ -44,3 +44,4 @@ D:\REPOSITORIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\Cu
 D:\REPOSITORIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\CustomUserControls.csproj.GenerateResource.cache
 D:\REPOSITORIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\Dictionary1.baml
 D:\REPOSITORIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\CustomUserControlsImageResources.baml
+D:\REPOSITORIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\CustomUserControlsStyles.baml

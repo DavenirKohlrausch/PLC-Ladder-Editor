@@ -5,18 +5,34 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PLC_Ladder_Editor"
         xmlns:cc="clr-namespace:CustomUserControls;assembly=CustomUserControls"
-        xmlns:LadderContainer="clr-namespace:LadderContainer;assembly=LadderContainer" xmlns:CustomUserControls="clr-namespace:CustomUserControls;assembly=CustomUserControls" x:Class="PLC_Ladder_Editor.MainWindow"
+        xmlns:LadderContainer="clr-namespace:LadderContainer;assembly=LadderContainer" 
+        xmlns:CustomUserControls="clr-namespace:CustomUserControls;assembly=CustomUserControls" x:Class="PLC_Ladder_Editor.MainWindow"
        
     
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="388" Width="800">
+
+
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/CustomUserControls;component/CustomUserControlsImageResources.xaml" />
+                <ResourceDictionary Source="/CustomUserControls;component/CustomUserControlsStyles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+
+
     <Grid>
 
         <LadderContainer:LadderContainer HorizontalAlignment="Left" Margin="190,91,0,0" VerticalAlignment="Top" Height="99" Width="172" Loaded="UserControl1_Loaded"/>
 
 
-        <CustomUserControls:uCtl_OK_Button HorizontalAlignment="Left" Margin="503,292,0,0" VerticalAlignment="Top" Height="53" Width="180"/>
-        <Image Source=   "/CustomUserControls;component/Images/Img__OK.png" HorizontalAlignment="Left" Height="100" Margin="572,120,0,0" VerticalAlignment="Top" Width="100"/>
+        <CustomUserControls:uCtl_OK_Button Name="btnOK" HorizontalAlignment="Left" Margin="503,292,0,0" VerticalAlignment="Top" Height="53" Width="180" IsEnabled="False" Text="teste"/>
+        <Image Source=  "{DynamicResource Img__OK}" HorizontalAlignment="Left" Height="100" Margin="572,120,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="263,286,0,0" VerticalAlignment="Top" Height="61" Width="112" Click="Button_Click"  />
 
 
 

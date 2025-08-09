@@ -10,41 +10,30 @@
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="/CustomUserControls;component/CustomUserControlsImageResources.xaml" />
+                <ResourceDictionary Source="/CustomUserControls;component/CustomUserControlsStyles.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </UserControl.Resources>
     
-    <Button  x:Name="button"
-            
-            Padding="5"
-            BorderThickness="2"
-            BorderBrush="SteelBlue"
-            Cursor="Hand"
-            HorizontalContentAlignment="Center"
-            VerticalContentAlignment="Center"  >
+    <Button  x:Name="button" Style = "{StaticResource ButtonStyle}" >
 
         <Button.Template>
             <ControlTemplate TargetType="Button">
-                <Border x:Name="border"
-                        CornerRadius="12"
-                        BorderBrush="{TemplateBinding BorderBrush}"
-                        BorderThickness="{TemplateBinding BorderThickness}"
-                         RenderTransformOrigin="0.5,0.5">
+                <Border x:Name="border" Style="{StaticResource ButtonBorderStyle}" >
 
-                    <!-- SolidColorBrush com x:Name (essencial!) -->
+                   <!-- SolidColorBrush com x:Name (essencial!) -->
                     <Border.Background>
-                        <SolidColorBrush x:Name="BackgroundBrush" Color="White"/>
+                        <SolidColorBrush x:Name="BackgroundBrush" Color="{StaticResource ButtonBackGroundColor}"/>
                     </Border.Background>
-                    <!-- Sombra desligada por padrão -->
+                    
                     <Border.Effect>
-                        <DropShadowEffect x:Name="shadowEffect" Color="#FFB0E0FF" BlurRadius="15" ShadowDepth="0" Opacity="0"/>
+                        <DropShadowEffect x:Name="shadowEffect" Color="{StaticResource ButtonShadowColor}" BlurRadius="15" ShadowDepth="0" Opacity="0"/>
                     </Border.Effect>
 
                     <!-- Escala para efeito de clique -->
                     <Border.RenderTransform>
                         <ScaleTransform x:Name="ButtonScale" ScaleX="1" ScaleY="1"/>
                     </Border.RenderTransform>
- 
 
                     <ContentPresenter HorizontalAlignment="Center"
                                       VerticalAlignment="Center"/>
@@ -53,59 +42,25 @@
                 <ControlTemplate.Triggers>
                     <Trigger Property="IsMouseOver" Value="True">
                         <Trigger.EnterActions>
-                            <BeginStoryboard>
-                                <Storyboard>
-                                    <ColorAnimation Storyboard.TargetName="BackgroundBrush"
-                                                    Storyboard.TargetProperty="Color"
-                                                    To="#FFB0E0FF" Duration="0:0:0.2"/>
-                                    <DoubleAnimation Storyboard.TargetName="shadowEffect"
-                                                     Storyboard.TargetProperty="Opacity"
-                                                     To="0.5" Duration="0:0:0.2"/>
-                                </Storyboard>
-                            </BeginStoryboard>
+                            <BeginStoryboard Storyboard="{StaticResource ButtonMouseOverStoryBoardIn}"/>
                         </Trigger.EnterActions>
                         <Trigger.ExitActions>
-                            <BeginStoryboard>
-                                <Storyboard>
-                                    <ColorAnimation Storyboard.TargetName="BackgroundBrush"
-                                                    Storyboard.TargetProperty="Color"
-                                                    To="White" Duration="0:0:0.2"/>
-                                    <DoubleAnimation Storyboard.TargetName="shadowEffect"
-                                                     Storyboard.TargetProperty="Opacity"
-                                                     To="0" Duration="0:0:0.2"/>
-                                </Storyboard>
-                            </BeginStoryboard>
+                            <BeginStoryboard Storyboard="{StaticResource ButtonMouseOverStoryBoardOut}"/>
                         </Trigger.ExitActions>
-
-
-        
                     </Trigger>
+                    
                     <!-- Clique (efeito de afundar) -->
                     <Trigger Property="IsPressed" Value="True">
                         <Trigger.EnterActions>
-                            <BeginStoryboard>
-                                <Storyboard>
-                                    <DoubleAnimation Storyboard.TargetName="ButtonScale"
-                                             Storyboard.TargetProperty="ScaleX"
-                                             To="0.98" Duration="0:0:0.05"/>
-                                    <DoubleAnimation Storyboard.TargetName="ButtonScale"
-                                             Storyboard.TargetProperty="ScaleY"
-                                             To="0.98" Duration="0:0:0.05"/>
-                                </Storyboard>
-                            </BeginStoryboard>
+                            <BeginStoryboard Storyboard="{StaticResource ButtonIsPressedStoryboardIn}"/>
                         </Trigger.EnterActions>
                         <Trigger.ExitActions>
-                            <BeginStoryboard>
-                                <Storyboard>
-                                    <DoubleAnimation Storyboard.TargetName="ButtonScale"
-                                             Storyboard.TargetProperty="ScaleX"
-                                             To="1" Duration="0:0:0.1"/>
-                                    <DoubleAnimation Storyboard.TargetName="ButtonScale"
-                                             Storyboard.TargetProperty="ScaleY"
-                                             To="1" Duration="0:0:0.1"/>
-                                </Storyboard>
-                            </BeginStoryboard>
+                            <BeginStoryboard Storyboard="{StaticResource ButtonIsPressedStoryboardOut}"/>
                         </Trigger.ExitActions>
+                    </Trigger>
+
+                    <Trigger Property="IsEnabled" Value="False">
+                        <Setter TargetName="border" Property="Background" Value="LightGray"/>
                     </Trigger>
 
                 </ControlTemplate.Triggers>
@@ -113,10 +68,10 @@
         </Button.Template>
 
         <!-- Conteúdo -->
-        <Viewbox Stretch="Uniform"  >
+        <Viewbox Stretch="Uniform">
         <StackPanel Orientation="Horizontal" VerticalAlignment="Center"  Margin="0,0,0,0">
-            <Image Source=  "{DynamicResource ResourceKey=Img__OK}" Stretch="Uniform"   Margin="0,50,00,50"/>
-            <TextBlock Text="OK" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="200"  FontStyle="Normal" FontFamily="Arial Black"  Margin="100,0,50,0"/>
+                <Image x:Name="BtnImage" Source= "{DynamicResource Img__OK}" Style="{StaticResource ButtonImageStyle}"/>
+                <TextBlock Text="{Binding Text, RelativeSource={RelativeSource AncestorType=UserControl}}" Style="{StaticResource ButtonTextBlockStyle}"/>
         </StackPanel>
             </Viewbox>
     </Button>

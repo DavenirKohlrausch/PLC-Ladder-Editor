@@ -1,0 +1,106 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Color x:Key="ButtonBorderColor">SteelBlue</Color>
+    <Color x:Key="ButtonDisabledBorderColor">DarkGray</Color>
+    <Color x:Key="ButtonShadowColor">#FFB0E0FF</Color>
+    <Color x:Key="ButtonBackGroundColor">White</Color>
+    <Color x:Key="ButtoDisabledBackGroundColor">LightGray</Color>
+    
+    <SolidColorBrush x:Key="ButtonBorderBrush"  Color="{StaticResource ButtonBorderColor}" />
+    <SolidColorBrush x:Key="ButtonDisabledBorderBrush"  Color="{StaticResource ButtonDisabledBorderColor}" />
+    <SolidColorBrush x:Key="ButtonBackGroundBrush" Color="{StaticResource ButtonBackGroundColor}"/>
+    
+    <Style x:Key="ButtonStyle" TargetType="Button">
+        <Setter Property="Padding" Value="5"/>
+        <Setter Property="BorderThickness" Value="2"/>
+        <Setter Property="BorderBrush" Value="{StaticResource ButtonBorderBrush}"/>
+        <Setter Property="Cursor" Value="Hand"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Background" Value= "{StaticResource ButtonBackGroundBrush}" />
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="FontFamily" Value="Arial"/>
+        <Setter Property="FontSize" Value="16"/>
+
+        <Style.Triggers>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="Foreground" Value="{StaticResource ButtonDisabledBorderBrush}" />
+                <Setter Property="Opacity" Value="0.4"/>
+            </Trigger>
+        </Style.Triggers>
+        
+    </Style>
+  
+    <Style x:Key="ButtonTextBlockStyle" TargetType="TextBlock">
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="FontSize" Value="200"/>
+        <Setter Property="FontStyle" Value="Normal"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="FontFamily" Value="Arial"/>
+        <Setter Property="Margin" Value="100,0,50,0"/>
+    </Style>
+    
+    <Style x:Key="ButtonBorderStyle" TargetType="Border">
+        <Setter Property="CornerRadius" Value="12"/>
+        <Setter Property="BorderBrush" Value="{StaticResource ButtonBorderBrush}"/>
+        <Setter Property="BorderThickness" Value="2"/>
+        <Setter Property="Background" Value="{StaticResource ButtonBackGroundBrush}"/>
+        <Setter Property="RenderTransformOrigin" Value="0.5,0.5"/>
+        <Setter Property="Effect">
+            <Setter.Value>
+                <DropShadowEffect Color="{StaticResource ButtonShadowColor}" BlurRadius="15" ShadowDepth="0" Opacity="0"/>
+            </Setter.Value>
+        </Setter>
+
+        <Style.Triggers>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="BorderBrush" Value="{StaticResource ButtonDisabledBorderBrush}"/>
+            </Trigger>
+        </Style.Triggers>
+        
+    </Style>
+
+    <Style x:Key="ButtonImageStyle" TargetType="Image">
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="Margin" Value="0,40,50,40"/>
+    </Style>
+ 
+    <Storyboard x:Key="ButtonMouseOverStoryBoardIn">
+        <ColorAnimation Storyboard.TargetName="BackgroundBrush"
+                    Storyboard.TargetProperty="Color"
+                    To="#FFB0E0FF" Duration="0:0:0.2"/>
+        <DoubleAnimation Storyboard.TargetName="shadowEffect"
+                     Storyboard.TargetProperty="Opacity"
+                     To="0.5" Duration="0:0:0.2"/>
+    </Storyboard>
+
+    <Storyboard x:Key="ButtonMouseOverStoryBoardOut">
+        <ColorAnimation Storyboard.TargetName="BackgroundBrush"
+                    Storyboard.TargetProperty="Color"
+                    To="White" Duration="0:0:0.2"/>
+        <DoubleAnimation Storyboard.TargetName="shadowEffect"
+                     Storyboard.TargetProperty="Opacity"
+                     To="0.0" Duration="0:0:0.2"/>
+    </Storyboard>
+ 
+    <Storyboard x:Key="ButtonIsPressedStoryboardIn">
+        <DoubleAnimation Storyboard.TargetName="ButtonScale"
+                    Storyboard.TargetProperty="ScaleX"
+                     To="0.98" Duration="0:0:0.05"/>
+        <DoubleAnimation Storyboard.TargetName="ButtonScale"
+                    Storyboard.TargetProperty="ScaleY"
+                    To="0.98" Duration="0:0:0.05"/>
+    </Storyboard>
+
+    <Storyboard x:Key="ButtonIsPressedStoryboardOut">
+        <DoubleAnimation Storyboard.TargetName="ButtonScale"
+                    Storyboard.TargetProperty="ScaleX"
+                    To="1" Duration="0:0:0.1"/>
+        <DoubleAnimation Storyboard.TargetName="ButtonScale"
+                    Storyboard.TargetProperty="ScaleY"
+                    To="1" Duration="0:0:0.1"/>
+    </Storyboard>
+ 
+</ResourceDictionary>

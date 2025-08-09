@@ -29,12 +29,20 @@ namespace PLC_Ladder_Editor
         {
 
         }
-      //  Image img = new Image
-      //  {
-      //      Width = 64,
-     //       Height = 64,
-      //      Source = new BitmapImage(new Uri("pack://application:,,,/CustomUserControls;component/Images/Img_OK.png"))
-     //   };
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if(btnOK.IsEnabled == true)
+            btnOK.IsEnabled = false;
+            else
+                btnOK.IsEnabled = true;
+        }
+        //  Image img = new Image
+        //  {
+        //      Width = 64,
+        //       Height = 64,
+        //      Source = new BitmapImage(new Uri("pack://application:,,,/CustomUserControls;component/Images/Img_OK.png"))
+        //   };
         //imgtest.    //          imgtest. MyPanel.Children.Add(img); // Onde "MyPanel" é um StackPanel no seu XAML
     }
 }

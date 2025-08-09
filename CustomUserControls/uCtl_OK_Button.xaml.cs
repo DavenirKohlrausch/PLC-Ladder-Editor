@@ -25,8 +25,8 @@ namespace CustomUserControls
         public uCtl_OK_Button()
         {
             InitializeComponent();
-           // Text = "OK";
-           
+         
+
         }
         // Evento de clique (reexpõe o do botão interno)
         public event RoutedEventHandler? Click;
@@ -36,7 +36,7 @@ namespace CustomUserControls
         }
 
         public static readonly DependencyProperty TextProperty =
-            DependencyProperty.Register(nameof(Text), typeof(string), typeof(uCtl_OK_Button), new PropertyMetadata(string.Empty));
+            DependencyProperty.Register(nameof(Text), typeof(string), typeof(uCtl_OK_Button), new PropertyMetadata("Btn"));
 
         public string Text
         {
