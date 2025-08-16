@@ -55,11 +55,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\REPOSITORIOS\\PLC-Ladder-Editor\\PLC-Ladder-Editor\\PLC-Ladder-Editor.csproj",
+      "projectUniqueName": "D:\\REPOSITÓRIOS\\PLC-Ladder-Editor\\PLC-Ladder-Editor\\PLC-Ladder-Editor.csproj",
       "projectName": "PLC-Ladder-Editor",
-      "projectPath": "D:\\REPOSITORIOS\\PLC-Ladder-Editor\\PLC-Ladder-Editor\\PLC-Ladder-Editor.csproj",
+      "projectPath": "D:\\REPOSITÓRIOS\\PLC-Ladder-Editor\\PLC-Ladder-Editor\\PLC-Ladder-Editor.csproj",
       "packagesPath": "C:\\Users\\daven\\.nuget\\packages\\",
-      "outputPath": "D:\\REPOSITORIOS\\PLC-Ladder-Editor\\PLC-Ladder-Editor\\obj\\",
+      "outputPath": "D:\\REPOSITÓRIOS\\PLC-Ladder-Editor\\PLC-Ladder-Editor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -74,17 +74,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "D:\\REPOSITORIOS\\PLC-Ladder-Editor\\CustomUserControls\\CustomUserControls.csproj": {
-              "projectPath": "D:\\REPOSITORIOS\\PLC-Ladder-Editor\\CustomUserControls\\CustomUserControls.csproj"
+            "D:\\REPOSITÓRIOS\\PLC-Ladder-Editor\\CustomUserControls\\CustomUserControls.csproj": {
+              "projectPath": "D:\\REPOSITÓRIOS\\PLC-Ladder-Editor\\CustomUserControls\\CustomUserControls.csproj"
             },
-            "D:\\REPOSITORIOS\\PLC-Ladder-Editor\\Ladder\\LadderContainer\\LadderContainer.csproj": {
-              "projectPath": "D:\\REPOSITORIOS\\PLC-Ladder-Editor\\Ladder\\LadderContainer\\LadderContainer.csproj"
+            "D:\\REPOSITÓRIOS\\PLC-Ladder-Editor\\Ladder\\LadderContainer\\LadderContainer.csproj": {
+              "projectPath": "D:\\REPOSITÓRIOS\\PLC-Ladder-Editor\\Ladder\\LadderContainer\\LadderContainer.csproj"
             }
           }
         }
@@ -115,24 +116,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.36, 6.0.36]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.36, 6.0.36]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.36, 6.0.36]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.36, 6.0.36]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -141,7 +124,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

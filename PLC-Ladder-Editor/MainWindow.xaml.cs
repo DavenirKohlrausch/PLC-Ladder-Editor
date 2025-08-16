@@ -32,10 +32,10 @@ namespace PLC_Ladder_Editor
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            if(btnOK.IsEnabled == true)
-            btnOK.IsEnabled = false;
-            else
-                btnOK.IsEnabled = true;
+          //  if(btnOK.IsEnabled == true)
+         //   btnOK.IsEnabled = false;
+         //   else
+           //     btnOK.IsEnabled = true;
         }
         //  Image img = new Image
         //  {

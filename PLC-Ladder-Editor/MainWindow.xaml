@@ -30,9 +30,9 @@
         <LadderContainer:LadderContainer HorizontalAlignment="Left" Margin="190,91,0,0" VerticalAlignment="Top" Height="99" Width="172" Loaded="UserControl1_Loaded"/>
 
 
-        <CustomUserControls:uCtl_OK_Button Name="btnOK" HorizontalAlignment="Left" Margin="503,292,0,0" VerticalAlignment="Top" Height="53" Width="180" IsEnabled="False" Text="teste"/>
-        <Image Source=  "{DynamicResource Img__OK}" HorizontalAlignment="Left" Height="100" Margin="572,120,0,0" VerticalAlignment="Top" Width="100"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="263,286,0,0" VerticalAlignment="Top" Height="61" Width="112" Click="Button_Click"  />
+        <Image   HorizontalAlignment="Left" Height="100" Margin="572,120,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="85,249,0,0" VerticalAlignment="Top" Height="61" Width="112" Click="Button_Click"  />
+        <CustomUserControls:UsercontrolButton   ImageSource="{StaticResource Img__OK}"  Text="Teste" HorizontalAlignment="Left" Margin="514,267,0,0" VerticalAlignment="Top" Width="229" Height="77"/>
 
 
 

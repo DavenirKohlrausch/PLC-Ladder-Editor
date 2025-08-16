@@ -35,11 +35,11 @@
     <Style x:Key="ButtonTextBlockStyle" TargetType="TextBlock">
         <Setter Property="HorizontalAlignment" Value="Center"/>
         <Setter Property="VerticalAlignment" Value="Center"/>
-        <Setter Property="FontSize" Value="200"/>
+        <Setter Property="FontSize" Value="120"/>
         <Setter Property="FontStyle" Value="Normal"/>
         <Setter Property="FontWeight" Value="Bold"/>
         <Setter Property="FontFamily" Value="Arial"/>
-        <Setter Property="Margin" Value="100,0,50,0"/>
+        <Setter Property="Margin" Value="20,0,0,0"/>
     </Style>
     
     <Style x:Key="ButtonBorderStyle" TargetType="Border">
@@ -64,7 +64,7 @@
 
     <Style x:Key="ButtonImageStyle" TargetType="Image">
         <Setter Property="VerticalAlignment" Value="Center"/>
-        <Setter Property="Margin" Value="0,40,50,40"/>
+        <Setter Property="Margin" Value="40,0,40,0"/>
     </Style>
  
     <Storyboard x:Key="ButtonMouseOverStoryBoardIn">

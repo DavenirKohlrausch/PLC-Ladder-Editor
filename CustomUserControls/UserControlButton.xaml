@@ -1,0 +1,78 @@
+﻿<UserControl   x:Class="CustomUserControls.UsercontrolButton"
+               xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Name="root" d:DesignWidth="240" Height="80">
+    
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/CustomUserControls;component/CustomUserControlsImageResources.xaml" />
+                <ResourceDictionary Source="/CustomUserControls;component/CustomUserControlsStyles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    
+    <Button  x:Name="button" Style = "{StaticResource ButtonStyle}" >
+
+        <Button.Template>
+            <ControlTemplate TargetType="Button">
+                <Border x:Name="border" Style="{StaticResource ButtonBorderStyle}" >
+
+                   <!-- SolidColorBrush com x:Name (essencial!) -->
+                    <Border.Background>
+                        <SolidColorBrush x:Name="BackgroundBrush" Color="{StaticResource ButtonBackGroundColor}"/>
+                    </Border.Background>
+                    
+                    <Border.Effect>
+                        <DropShadowEffect x:Name="shadowEffect" Color="{StaticResource ButtonShadowColor}" BlurRadius="15" ShadowDepth="0" Opacity="0"/>
+                    </Border.Effect>
+
+                    <!-- Escala para efeito de clique -->
+                    <Border.RenderTransform>
+                        <ScaleTransform x:Name="ButtonScale" ScaleX="1" ScaleY="1"/>
+                    </Border.RenderTransform>
+
+                    <ContentPresenter HorizontalAlignment="Center"
+                                      VerticalAlignment="Center"/>
+                </Border>
+
+                <ControlTemplate.Triggers>
+                    <Trigger Property="IsMouseOver" Value="True">
+                        <Trigger.EnterActions>
+                            <BeginStoryboard Storyboard="{StaticResource ButtonMouseOverStoryBoardIn}"/>
+                        </Trigger.EnterActions>
+                        <Trigger.ExitActions>
+                            <BeginStoryboard Storyboard="{StaticResource ButtonMouseOverStoryBoardOut}"/>
+                        </Trigger.ExitActions>
+                    </Trigger>
+                    
+                    <!-- Clique (efeito de afundar) -->
+                    <Trigger Property="IsPressed" Value="True">
+                        <Trigger.EnterActions>
+                            <BeginStoryboard Storyboard="{StaticResource ButtonIsPressedStoryboardIn}"/>
+                        </Trigger.EnterActions>
+                        <Trigger.ExitActions>
+                            <BeginStoryboard Storyboard="{StaticResource ButtonIsPressedStoryboardOut}"/>
+                        </Trigger.ExitActions>
+                    </Trigger>
+
+                    <Trigger Property="IsEnabled" Value="False">
+                        <Setter TargetName="border" Property="Background" Value="LightGray"/>
+                    </Trigger>
+
+                </ControlTemplate.Triggers>
+            </ControlTemplate>
+        </Button.Template>
+
+        <!-- Conteúdo -->
+        <Viewbox Stretch="Uniform">
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Center"  Margin="0,0,0,0">
+                <Image  Source =  "{Binding ImageSource, RelativeSource={RelativeSource AncestorType=UserControl}}" Style="{StaticResource ButtonImageStyle}" MaxHeight="256" />
+                <TextBlock Text="{Binding Text, RelativeSource={RelativeSource AncestorType=UserControl}}" Style="{StaticResource ButtonTextBlockStyle}"/>
+        </StackPanel>
+            </Viewbox>
+    </Button>
+</UserControl>

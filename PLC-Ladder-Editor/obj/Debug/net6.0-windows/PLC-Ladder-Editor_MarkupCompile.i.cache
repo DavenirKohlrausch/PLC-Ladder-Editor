@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\REPOSITORIOS\PLC-Ladder-Editor\PLC-Ladder-Editor\obj\Debug\net6.0-windows\
+D:\REPOSITÓRIOS\PLC-Ladder-Editor\PLC-Ladder-Editor\obj\Debug\net6.0-windows\
 PLC_Ladder_Editor
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-D:\REPOSITORIOS\PLC-Ladder-Editor\PLC-Ladder-Editor\App.xaml
+D:\REPOSITÓRIOS\PLC-Ladder-Editor\PLC-Ladder-Editor\App.xaml
 11407045341
 
 71144512586
-196-1230002424
+196-29253018
 MainWindow.xaml;
 
-True
+False
 
