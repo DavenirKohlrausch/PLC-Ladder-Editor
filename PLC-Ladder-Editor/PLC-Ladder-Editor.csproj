@@ -9,7 +9,7 @@
     <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
     <UseWindowsForms>False</UseWindowsForms>
     <StartupObject>PLC_Ladder_Editor.App</StartupObject>
-    <DebugType>none</DebugType>
+    <DebugType>full</DebugType>
   </PropertyGroup>
 
   <ItemGroup>

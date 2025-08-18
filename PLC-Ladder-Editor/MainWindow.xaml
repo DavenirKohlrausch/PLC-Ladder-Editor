@@ -7,7 +7,10 @@
         xmlns:cc="clr-namespace:CustomUserControls;assembly=CustomUserControls"
         xmlns:LadderContainer="clr-namespace:LadderContainer;assembly=LadderContainer" 
         xmlns:CustomUserControls="clr-namespace:CustomUserControls;assembly=CustomUserControls" x:Class="PLC_Ladder_Editor.MainWindow"
-       
+        WindowStyle="None" 
+        AllowsTransparency="True" 
+        Background="GhostWhite"
+        ResizeMode="CanResize"
     
         mc:Ignorable="d"
         Title="MainWindow" Height="388" Width="800">
@@ -27,6 +30,16 @@
 
     <Grid>
 
+        <Border x:Name="RightResizeGrip" Width="5" HorizontalAlignment="Right" VerticalAlignment="Stretch" Background="Green" MouseDown="RightReSizeGrip_MouseDown" Margin="0,10,0,10" Cursor="SizeWE"/>
+        <Border x:Name="LeftSizeGrip" Width="5" HorizontalAlignment="Left"  VerticalAlignment="Stretch" Background="Green" MouseDown="LeftReSizeGrip_MouseDown" Margin="0,10,0,10" Cursor="SizeWE"/>
+        <Border x:Name="BottonSizeGrip" Height="5" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Background="Green" MouseDown="BottomReSizeGrip_MouseDown" Margin="10,0,10,0"  Cursor="SizeNS"/>
+        <Border x:Name="TopSizeGrip" Height="5" HorizontalAlignment="Stretch" VerticalAlignment="Top" Background="Green" MouseDown="TopReSizeGrip_MouseDown" Margin="10,0,10,0" Cursor="SizeNS"/>
+        <Border x:Name="TopRightSizeGrip" Height="10" Width="10" HorizontalAlignment="Right" VerticalAlignment="Top" Background="Red" MouseDown="TopRightReSizeGrip_MouseDown"  MouseUp="TopRightReSizeGrip_MouseUp" MouseEnter="TopRightReSizeGrip_MouseEnter" MouseLeave="TopRightReSizeGrip_MouseLeave" />
+        <Border x:Name="TopLeftSizeGrip" Height="10" Width="10" HorizontalAlignment="Left" VerticalAlignment="Top" Background="Red" MouseDown="TopLeftReSizeGrip_MouseDown" MouseUp="TopLeftReSizeGrip_MouseUp" MouseEnter="TopLeftReSizeGrip_MouseEnter" MouseLeave="TopLeftReSizeGrip_MouseLeave"/>
+        <Border x:Name="BottomRightSizeGrip" Height="10" Width="10" HorizontalAlignment="Right" VerticalAlignment="Bottom" Background="Red" MouseDown="BottomRightReSizeGrip_MouseDown" MouseUp="BottomRightReSizeGrip_MouseUp" MouseEnter="BottomRightReSizeGrip_MouseEnter" MouseLeave="BottomRightReSizeGrip_MouseLeave"/>
+        <Border x:Name="BottomLeftSizeGrip" Height="10" Width="10" HorizontalAlignment="Left" VerticalAlignment="Bottom" Background="Red" MouseDown="BottomLeftReSizeGrip_MouseDown" MouseUp="BottomLeftReSizeGrip_MouseUp" MouseEnter="BottomLeftReSizeGrip_MouseEnter" MouseLeave="BottomLeftReSizeGrip_MouseLeave"/>
+
+        
         <LadderContainer:LadderContainer HorizontalAlignment="Left" Margin="190,91,0,0" VerticalAlignment="Top" Height="99" Width="172" Loaded="UserControl1_Loaded"/>
 
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LadderContainer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c1644a02c17d90a372aefaa4019eddc880cfca7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00ded5ffa4a01d445146a19d1270326a11704a40")]
 [assembly: System.Reflection.AssemblyProductAttribute("LadderContainer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LadderContainer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
