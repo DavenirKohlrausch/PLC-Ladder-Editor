@@ -9,12 +9,12 @@
         xmlns:CustomUserControls="clr-namespace:CustomUserControls;assembly=CustomUserControls" x:Class="PLC_Ladder_Editor.MainWindow"
         WindowStyle="None" 
         AllowsTransparency="True" 
-        Background="GhostWhite"
+        Background="Transparent"
         ResizeMode="CanResize"
+        WindowStartupLocation="CenterScreen"
     
         mc:Ignorable="d"
         Title="MainWindow" Height="388" Width="800">
-
 
 
     <Window.Resources>
@@ -26,28 +26,32 @@
         </ResourceDictionary>
     </Window.Resources>
 
-
-
     <Grid>
+        <Grid>
+            <Border  CornerRadius="20" Background="GhostWhite" >
+                <Grid Margin="0,0,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" x:Name="Title"  />
+                        <RowDefinition x:Name="body"  />
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0" Margin="0,0,0,0" Height="Auto" Width="Auto">
+                        <cc:CustomTitleBar x:Name="customTitleBar" />
+                    </Grid>
+                    <Grid Grid.Row="1" Margin="0,0,0,0" Height="Auto" Width="Auto" Background="Azure">
 
-        <Border x:Name="RightResizeGrip" Width="5" HorizontalAlignment="Right" VerticalAlignment="Stretch" Background="Green" MouseDown="RightReSizeGrip_MouseDown" Margin="0,10,0,10" Cursor="SizeWE"/>
-        <Border x:Name="LeftSizeGrip" Width="5" HorizontalAlignment="Left"  VerticalAlignment="Stretch" Background="Green" MouseDown="LeftReSizeGrip_MouseDown" Margin="0,10,0,10" Cursor="SizeWE"/>
-        <Border x:Name="BottonSizeGrip" Height="5" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Background="Green" MouseDown="BottomReSizeGrip_MouseDown" Margin="10,0,10,0"  Cursor="SizeNS"/>
-        <Border x:Name="TopSizeGrip" Height="5" HorizontalAlignment="Stretch" VerticalAlignment="Top" Background="Green" MouseDown="TopReSizeGrip_MouseDown" Margin="10,0,10,0" Cursor="SizeNS"/>
-        <Border x:Name="TopRightSizeGrip" Height="10" Width="10" HorizontalAlignment="Right" VerticalAlignment="Top" Background="Red" MouseDown="TopRightReSizeGrip_MouseDown"  MouseUp="TopRightReSizeGrip_MouseUp" MouseEnter="TopRightReSizeGrip_MouseEnter" MouseLeave="TopRightReSizeGrip_MouseLeave" />
-        <Border x:Name="TopLeftSizeGrip" Height="10" Width="10" HorizontalAlignment="Left" VerticalAlignment="Top" Background="Red" MouseDown="TopLeftReSizeGrip_MouseDown" MouseUp="TopLeftReSizeGrip_MouseUp" MouseEnter="TopLeftReSizeGrip_MouseEnter" MouseLeave="TopLeftReSizeGrip_MouseLeave"/>
-        <Border x:Name="BottomRightSizeGrip" Height="10" Width="10" HorizontalAlignment="Right" VerticalAlignment="Bottom" Background="Red" MouseDown="BottomRightReSizeGrip_MouseDown" MouseUp="BottomRightReSizeGrip_MouseUp" MouseEnter="BottomRightReSizeGrip_MouseEnter" MouseLeave="BottomRightReSizeGrip_MouseLeave"/>
-        <Border x:Name="BottomLeftSizeGrip" Height="10" Width="10" HorizontalAlignment="Left" VerticalAlignment="Bottom" Background="Red" MouseDown="BottomLeftReSizeGrip_MouseDown" MouseUp="BottomLeftReSizeGrip_MouseUp" MouseEnter="BottomLeftReSizeGrip_MouseEnter" MouseLeave="BottomLeftReSizeGrip_MouseLeave"/>
-
-        
-        <LadderContainer:LadderContainer HorizontalAlignment="Left" Margin="190,91,0,0" VerticalAlignment="Top" Height="99" Width="172" Loaded="UserControl1_Loaded"/>
-
-
-        <Image   HorizontalAlignment="Left" Height="100" Margin="572,120,0,0" VerticalAlignment="Top" Width="100"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="85,249,0,0" VerticalAlignment="Top" Height="61" Width="112" Click="Button_Click"  />
-        <CustomUserControls:UsercontrolButton   ImageSource="{StaticResource Img__OK}"  Text="Teste" HorizontalAlignment="Left" Margin="514,267,0,0" VerticalAlignment="Top" Width="229" Height="77"/>
-
-
-
+                    </Grid>
+                </Grid>
+            </Border>
+        </Grid>
+        <Grid Height="Auto" Width="Auto">
+            <Border x:Name="RightResizeGrip" Width="5" HorizontalAlignment="Right" Background="Transparent" MouseDown="RightReSizeGrip_MouseDown" Margin="795,10,0,10" Cursor="SizeWE"/>
+            <Border x:Name="LeftSizeGrip" Width="5" HorizontalAlignment="Left" Background="Transparent" MouseDown="LeftReSizeGrip_MouseDown" Margin="0,10,0,10" Cursor="SizeWE"/>
+            <Border x:Name="BottonSizeGrip" Height="5" VerticalAlignment="Bottom" Background="Transparent" MouseDown="BottomReSizeGrip_MouseDown" Margin="10,339,10,0"  Cursor="SizeNS"/>
+            <Border x:Name="TopSizeGrip" Height="5" VerticalAlignment="Top" Background="Transparent" MouseDown="TopReSizeGrip_MouseDown" Margin="10,0,10,0" Cursor="SizeNS"/>
+            <Border x:Name="TopRightSizeGrip" Height="10" Width="10" HorizontalAlignment="Right" VerticalAlignment="Top" Background="Transparent" MouseDown="TopRightReSizeGrip_MouseDown"  MouseUp="TopRightReSizeGrip_MouseUp" MouseEnter="TopRightReSizeGrip_MouseEnter" MouseLeave="TopRightReSizeGrip_MouseLeave" />
+            <Border x:Name="TopLeftSizeGrip" Height="10" Width="10" HorizontalAlignment="Left" VerticalAlignment="Top" Background="Transparent" MouseDown="TopLeftReSizeGrip_MouseDown" MouseUp="TopLeftReSizeGrip_MouseUp" MouseEnter="TopLeftReSizeGrip_MouseEnter" MouseLeave="TopLeftReSizeGrip_MouseLeave"/>
+            <Border x:Name="BottomRightSizeGrip" Height="10" Width="10" HorizontalAlignment="Right" VerticalAlignment="Bottom" Background="Transparent" MouseDown="BottomRightReSizeGrip_MouseDown" MouseUp="BottomRightReSizeGrip_MouseUp" MouseEnter="BottomRightReSizeGrip_MouseEnter" MouseLeave="BottomRightReSizeGrip_MouseLeave"/>
+            <Border x:Name="BottomLeftSizeGrip" Height="10" Width="10" HorizontalAlignment="Left" VerticalAlignment="Bottom" Background="Transparent" MouseDown="BottomLeftReSizeGrip_MouseDown" MouseUp="BottomLeftReSizeGrip_MouseUp" MouseEnter="BottomLeftReSizeGrip_MouseEnter" MouseLeave="BottomLeftReSizeGrip_MouseLeave"/>
+        </Grid>
     </Grid>
 </Window>

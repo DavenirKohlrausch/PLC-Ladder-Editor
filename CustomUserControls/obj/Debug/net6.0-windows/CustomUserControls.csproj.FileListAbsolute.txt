@@ -52,3 +52,5 @@ D:\REPOSITÓRIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\t
 D:\REPOSITÓRIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\trash\uCtl_OK_Button.g.cs
 D:\REPOSITÓRIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\trash\UserControl1.g.cs
 D:\REPOSITÓRIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\trash\UserControl1.baml
+D:\REPOSITÓRIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\CustomTitleBar.baml
+D:\REPOSITÓRIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\CustomTitleBar.g.cs

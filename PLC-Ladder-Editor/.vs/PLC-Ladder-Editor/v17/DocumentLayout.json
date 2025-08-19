@@ -3,6 +3,12 @@
   "WorkspaceRootPath": "D:\\REPOSIT\u00D3RIOS\\PLC-Ladder-Editor\\PLC-Ladder-Editor\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0CFF1E84-1913-E27F-B330-32972D259432}|..\\CustomUserControls\\CustomUserControls.csproj|d:\\reposit\u00F3rios\\plc-ladder-editor\\customusercontrols\\customtitlebar.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CFF1E84-1913-E27F-B330-32972D259432}|..\\CustomUserControls\\CustomUserControls.csproj|d:\\reposit\u00F3rios\\plc-ladder-editor\\customusercontrols\\customtitlebar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A4F79165-9C1F-4AD9-861F-A9733EE810E9}|PLC-Ladder-Editor.csproj|d:\\reposit\u00F3rios\\plc-ladder-editor\\plc-ladder-editor\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A4F79165-9C1F-4AD9-861F-A9733EE810E9}|PLC-Ladder-Editor.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -34,7 +40,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,20 +48,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "CustomTitleBar.xaml.cs",
+              "DocumentMoniker": "D:\\REPOSIT\u00D3RIOS\\PLC-Ladder-Editor\\CustomUserControls\\CustomTitleBar.xaml.cs",
+              "RelativeDocumentMoniker": "..\\CustomUserControls\\CustomTitleBar.xaml.cs",
+              "ToolTip": "D:\\REPOSIT\u00D3RIOS\\PLC-Ladder-Editor\\CustomUserControls\\CustomTitleBar.xaml.cs",
+              "RelativeToolTip": "..\\CustomUserControls\\CustomTitleBar.xaml.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T02:37:04.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\REPOSIT\u00D3RIOS\\PLC-Ladder-Editor\\PLC-Ladder-Editor\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "D:\\REPOSIT\u00D3RIOS\\PLC-Ladder-Editor\\PLC-Ladder-Editor\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAmwMIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAJgAAAAAAAAAAAArwF8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-08T01:12:45.554Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\REPOSIT\u00D3RIOS\\PLC-Ladder-Editor\\PLC-Ladder-Editor\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -67,7 +86,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "CustomTitleBar.xaml",
+              "DocumentMoniker": "D:\\REPOSIT\u00D3RIOS\\PLC-Ladder-Editor\\CustomUserControls\\CustomTitleBar.xaml",
+              "RelativeDocumentMoniker": "..\\CustomUserControls\\CustomTitleBar.xaml",
+              "ToolTip": "D:\\REPOSIT\u00D3RIOS\\PLC-Ladder-Editor\\CustomUserControls\\CustomTitleBar.xaml",
+              "RelativeToolTip": "..\\CustomUserControls\\CustomTitleBar.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-19T01:41:29.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "UserControlButton.xaml",
               "DocumentMoniker": "D:\\REPOSIT\u00D3RIOS\\PLC-Ladder-Editor\\CustomUserControls\\UserControlButton.xaml",
               "RelativeDocumentMoniker": "..\\CustomUserControls\\UserControlButton.xaml",
@@ -79,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "UserControlButton.xaml.cs",
               "DocumentMoniker": "D:\\REPOSIT\u00D3RIOS\\PLC-Ladder-Editor\\CustomUserControls\\UserControlButton.xaml.cs",
               "RelativeDocumentMoniker": "..\\CustomUserControls\\UserControlButton.xaml.cs",
@@ -91,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "CustomUserControlsStyles.xaml",
               "DocumentMoniker": "D:\\REPOSIT\u00D3RIOS\\PLC-Ladder-Editor\\CustomUserControls\\CustomUserControlsStyles.xaml",
               "RelativeDocumentMoniker": "..\\CustomUserControls\\CustomUserControlsStyles.xaml",
@@ -103,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "CustomUserControlsImageResources.xaml",
               "DocumentMoniker": "D:\\REPOSIT\u00D3RIOS\\PLC-Ladder-Editor\\CustomUserControls\\CustomUserControlsImageResources.xaml",
               "RelativeDocumentMoniker": "..\\CustomUserControls\\CustomUserControlsImageResources.xaml",
@@ -115,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\REPOSIT\u00D3RIOS\\PLC-Ladder-Editor\\PLC-Ladder-Editor\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
