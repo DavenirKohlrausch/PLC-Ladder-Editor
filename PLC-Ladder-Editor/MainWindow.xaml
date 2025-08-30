@@ -38,6 +38,7 @@
                         <cc:CustomTitleBar x:Name="customTitleBar" />
                     </Grid>
                     <Grid Grid.Row="1" Margin="0,0,0,0" Height="Auto" Width="Auto" Background="Azure">
+                        <CustomUserControls:UsercontrolButton HorizontalAlignment="Left" Margin="245,158,0,0" VerticalAlignment="Top" Width="304"/>
 
                     </Grid>
                 </Grid>

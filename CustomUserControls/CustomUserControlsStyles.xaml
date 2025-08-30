@@ -103,4 +103,42 @@
                     To="1" Duration="0:0:0.1"/>
     </Storyboard>
  
+    <ControlTemplate x:Key="TitleButtonControlTemplate" TargetType="Button">
+        <Border CornerRadius="5" BorderThickness="2">
+            <Border.Background>
+                <SolidColorBrush x:Name="BackgroundBrush" Color="SteelBlue"/>
+            </Border.Background>
+            <Border.Effect>
+                <DropShadowEffect x:Name="shadowEffect" Color="CadetBlue" BlurRadius="5" ShadowDepth="0" Opacity="0"/>
+            </Border.Effect>
+            <Border.RenderTransform>
+                <ScaleTransform x:Name="ButtonScale" ScaleX="1" ScaleY="1"/>
+            </Border.RenderTransform>
+            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <ControlTemplate.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Trigger.EnterActions>
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetName="ButtonScale" Storyboard.TargetProperty="ScaleX" To="1.1" Duration="0:0:0.1"/>
+                            <DoubleAnimation Storyboard.TargetName="ButtonScale" Storyboard.TargetProperty="ScaleY" To="1.1" Duration="0:0:0.1"/>
+                            <ColorAnimation Storyboard.TargetName="BackgroundBrush" Storyboard.TargetProperty="Color" To="LightSkyBlue" Duration="0:0:0.1"/>
+                            <ColorAnimation Storyboard.TargetName="shadowEffect" Storyboard.TargetProperty="Color" To="LightSkyBlue" Duration="0:0:0.1"/>
+                            <DoubleAnimation Storyboard.TargetName="shadowEffect" Storyboard.TargetProperty="Opacity" To="5" Duration="0:0:0.1"/>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </Trigger.EnterActions>
+                <Trigger.ExitActions>
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <ColorAnimation Storyboard.TargetName="BackgroundBrush" Storyboard.TargetProperty="Color" To="SteelBlue" Duration="0:0:0.2"/>
+                            <DoubleAnimation Storyboard.TargetName="shadowEffect" Storyboard.TargetProperty="Opacity" To="0.0" Duration="0:0:0.2"/>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </Trigger.ExitActions>
+            </Trigger>
+        </ControlTemplate.Triggers>
+    </ControlTemplate>
+ 
 </ResourceDictionary>

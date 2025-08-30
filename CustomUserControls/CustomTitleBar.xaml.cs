@@ -51,5 +51,26 @@ namespace CustomUserControls
             if (e.ChangedButton == MouseButton.Left)
                 Window.GetWindow(this)?.DragMove();
         }
+
+        public void SetTitle(string title)
+        {
+            TitleTextBlock.Text = title;
+        }
+
+        public Color TitleBarColor
+        {
+            get 
+            { 
+                return ((SolidColorBrush)TitleBorder.Background).Color; 
+            }
+            set 
+            { 
+                BtnClose.Background = new SolidColorBrush(value);
+                BtnRestaureMaximize.Background = new SolidColorBrush(value);
+                BtnMinimize.Background = new SolidColorBrush(value);
+                TitleBorder.Background = new SolidColorBrush(value); 
+            }
+        }
+
     }
 }

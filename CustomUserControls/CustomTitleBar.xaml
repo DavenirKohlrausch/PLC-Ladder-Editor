@@ -1,8 +1,19 @@
 ﻿<UserControl x:Class="CustomUserControls.CustomTitleBar"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    Height="40" MinHeight="32">
-    <Border Background="SteelBlue" CornerRadius="8,8,0,0"  MouseDown="TitleBar_MouseDown">
+    Height="Auto" MinHeight="36">
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/CustomUserControls;component/CustomUserControlsImageResources.xaml" />
+                <ResourceDictionary Source="/CustomUserControls;component/CustomUserControlsStyles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+
+    <Border Background="SteelBlue" CornerRadius="8,8,0,0" x:Name="TitleBorder" MouseDown="TitleBar_MouseDown" Height="Auto">
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="40"/>
@@ -10,14 +21,20 @@
                 <ColumnDefinition Width="Auto"/>
             </Grid.ColumnDefinitions>
             <!-- Ícone -->
-            <Image Source="/CustomUserControls;component/Images/Img__OK.png" Width="24" Height="24" Margin="8,0"/>
+            <Image Source="/CustomUserControls;component/Images/Img__OK.png"   Margin="8,8,8,8"/>
             <!-- Título -->
-            <TextBlock Grid.Column="1" Text="Minha Aplicação" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="16"/>
+            <TextBlock x:Name="TitleTextBlock" Grid.Column="1" Text="Minha Aplicação" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="16"/>
             <!-- Botões -->
-            <StackPanel Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center">
-                <Button Content="—" Width="32" Height="32" Margin="0,0,4,0" Click="Minimize_Click"/>
-                <Button Content="[ ]" Width="32" Height="32" Margin="0,0,4,0" Click="Maximze_Click"/>
-                <Button Content="X" Width="32" Height="32" Margin="0,0,4,0" Click="Close_Click"/>
+            <StackPanel Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Top" Height="Auto">
+                <Button x:Name="BtnMinimize" Width="36" Height="36" Margin="0,0,4,0" Click="Minimize_Click" BorderThickness="0" Template="{StaticResource TitleButtonControlTemplate}" >
+                    <Image/>
+                </Button>
+                <Button x:Name="BtnRestaureMaximize" Width="36" Height="36" Margin="0,0,4,0" Click="Maximze_Click" Template="{StaticResource TitleButtonControlTemplate}"  >
+                    <Image/>
+                </Button>
+                <Button x:Name="BtnClose" Width="36" Height="36" Margin="0,0,4,0" Click="Close_Click" BorderThickness="0" Template="{StaticResource TitleButtonControlTemplate}" >
+                    <Image/>
+                </Button>
             </StackPanel>
         </Grid>
     </Border>
