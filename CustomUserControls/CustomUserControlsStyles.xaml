@@ -121,8 +121,6 @@
                 <Trigger.EnterActions>
                     <BeginStoryboard>
                         <Storyboard>
-                            <DoubleAnimation Storyboard.TargetName="ButtonScale" Storyboard.TargetProperty="ScaleX" To="1.1" Duration="0:0:0.1"/>
-                            <DoubleAnimation Storyboard.TargetName="ButtonScale" Storyboard.TargetProperty="ScaleY" To="1.1" Duration="0:0:0.1"/>
                             <ColorAnimation Storyboard.TargetName="BackgroundBrush" Storyboard.TargetProperty="Color" To="LightSkyBlue" Duration="0:0:0.1"/>
                             <ColorAnimation Storyboard.TargetName="shadowEffect" Storyboard.TargetProperty="Color" To="LightSkyBlue" Duration="0:0:0.1"/>
                             <DoubleAnimation Storyboard.TargetName="shadowEffect" Storyboard.TargetProperty="Opacity" To="5" Duration="0:0:0.1"/>

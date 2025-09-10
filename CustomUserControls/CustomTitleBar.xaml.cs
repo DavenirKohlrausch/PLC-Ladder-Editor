@@ -33,10 +33,12 @@ namespace CustomUserControls
             if(Window.GetWindow(this).WindowState == WindowState.Maximized)
             {
                 Window.GetWindow(this).WindowState = WindowState.Normal;
+                ImgRestaureMaximize.Source = (ImageSource) this.FindResource("Img__WinMax");
             }
             else
             {
                 Window.GetWindow(this).WindowState = WindowState.Maximized;
+                ImgRestaureMaximize.Source = (ImageSource)this.FindResource("Img__WinRest");
             }
 
             

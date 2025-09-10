@@ -18,14 +18,10 @@ D:\REPOSITÓRIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\r
 D:\REPOSITORIOS\PLC-Ladder-Editor\CustomUserControls\bin\Debug\net6.0-windows\CustomUserControls.deps.json
 D:\REPOSITORIOS\PLC-Ladder-Editor\CustomUserControls\bin\Debug\net6.0-windows\CustomUserControls.dll
 D:\REPOSITORIOS\PLC-Ladder-Editor\CustomUserControls\bin\Debug\net6.0-windows\CustomUserControls.pdb
-D:\REPOSITORIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\uCtl_OK_Button.baml
-D:\REPOSITORIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\uCtl_OK_Button.g.cs
-D:\REPOSITORIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\UserControl1.g.cs
 D:\REPOSITORIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
 D:\REPOSITORIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\CustomUserControls_MarkupCompile.cache
 D:\REPOSITORIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\CustomUserControls_MarkupCompile.lref
 D:\REPOSITORIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\Themes\Generic.baml
-D:\REPOSITORIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\UserControl1.baml
 D:\REPOSITORIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\CustomUserControls.g.resources
 D:\REPOSITORIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\CustomUserControls.GeneratedMSBuildEditorConfig.editorconfig
 D:\REPOSITORIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\CustomUserControls.AssemblyInfoInputs.cache
@@ -54,3 +50,11 @@ D:\REPOSITÓRIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\t
 D:\REPOSITÓRIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\trash\UserControl1.baml
 D:\REPOSITÓRIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\CustomTitleBar.baml
 D:\REPOSITÓRIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\CustomTitleBar.g.cs
+D:\REPOSITORIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\CustomTitleBar.baml
+D:\REPOSITORIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\trash\uCtl_OK_Button.baml
+D:\REPOSITORIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\UserControlButton.baml
+D:\REPOSITORIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\CustomTitleBar.g.cs
+D:\REPOSITORIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\trash\uCtl_OK_Button.g.cs
+D:\REPOSITORIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\trash\UserControl1.g.cs
+D:\REPOSITORIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\UserControlButton.g.cs
+D:\REPOSITORIOS\PLC-Ladder-Editor\CustomUserControls\obj\Debug\net6.0-windows\trash\UserControl1.baml

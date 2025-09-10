@@ -6,14 +6,14 @@
     <UserControl.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="/CustomUserControls;component/CustomUserControlsImageResources.xaml" />
+                <ResourceDictionary Source="/CustomUserControls;component/CustomUserControlsImageResources.xaml"/>
                 <ResourceDictionary Source="/CustomUserControls;component/CustomUserControlsStyles.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </UserControl.Resources>
 
 
-    <Border Background="SteelBlue" CornerRadius="8,8,0,0" x:Name="TitleBorder" MouseDown="TitleBar_MouseDown" Height="Auto">
+    <Border Background="SteelBlue" CornerRadius="8,8,0,0" x:Name="TitleBorder" MouseDown="TitleBar_MouseDown" Height="Auto" Margin="0,0,0,0">
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="40"/>
@@ -25,15 +25,15 @@
             <!-- Título -->
             <TextBlock x:Name="TitleTextBlock" Grid.Column="1" Text="Minha Aplicação" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="16"/>
             <!-- Botões -->
-            <StackPanel Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Top" Height="Auto">
+            <StackPanel Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Top" Height="Auto" Margin="0,3,0,0">
                 <Button x:Name="BtnMinimize" Width="36" Height="36" Margin="0,0,4,0" Click="Minimize_Click" BorderThickness="0" Template="{StaticResource TitleButtonControlTemplate}" >
-                    <Image/>
+                    <Image Source= "{StaticResource Img__WinMin}"/>
                 </Button>
                 <Button x:Name="BtnRestaureMaximize" Width="36" Height="36" Margin="0,0,4,0" Click="Maximze_Click" Template="{StaticResource TitleButtonControlTemplate}"  >
-                    <Image/>
+                    <Image x:Name="ImgRestaureMaximize" Source="/CustomUserControls;component/Images/IMG__WinRest.png" Margin="2,2,2,2"/>
                 </Button>
                 <Button x:Name="BtnClose" Width="36" Height="36" Margin="0,0,4,0" Click="Close_Click" BorderThickness="0" Template="{StaticResource TitleButtonControlTemplate}" >
-                    <Image/>
+                    <Image Source="{StaticResource Img__WinClose}"/>
                 </Button>
             </StackPanel>
         </Grid>

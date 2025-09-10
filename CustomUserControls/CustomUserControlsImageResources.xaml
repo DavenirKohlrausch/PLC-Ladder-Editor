@@ -2,6 +2,10 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
                     <BitmapImage x:Key="Img__OK" UriSource="/CustomUserControls;component/Images/Img__OK.png" />
                     <BitmapImage x:Key="Img__Close" UriSource="/CustomUserControls;component/Images/Img__Close.png" />
+                    <BitmapImage x:Key="Img__WinRest" UriSource="/CustomUserControls;component/Images/Img__WinRest.png" />
+                    <BitmapImage x:Key="Img__WinMax" UriSource="/CustomUserControls;component/Images/Img__WinMax.png" />
+                    <BitmapImage x:Key="Img__WinMin" UriSource="/CustomUserControls;component/Images/Img__WinMin.png" />
+                    <BitmapImage x:Key="Img__WinClose" UriSource="/CustomUserControls;component/Images/Img__WinClose.png" />
 </ResourceDictionary>
 
  

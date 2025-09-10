@@ -9,12 +9,20 @@
 
   <ItemGroup>
     <None Remove="Images\Img__OK.png" />
+    <None Remove="Images\IMG__WinClose.png" />
+    <None Remove="Images\IMG__WinMax.png" />
+    <None Remove="Images\IMG__WinMin.png" />
+    <None Remove="Images\IMG__WinRest.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Images\Img__OK.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="Images\IMG__WinClose.png" />
+    <Resource Include="Images\IMG__WinMax.png" />
+    <Resource Include="Images\IMG__WinMin.png" />
+    <Resource Include="Images\IMG__WinRest.png" />
   </ItemGroup>
 
   <ItemGroup>

@@ -53,3 +53,6 @@ D:\REPOSITORIOS\PLC-Ladder-Editor\PLC-Ladder-Editor\obj\Debug\net6.0-windows\ref
 D:\REPOSITÓRIOS\PLC-Ladder-Editor\PLC-Ladder-Editor\bin\Debug\net6.0-windows\PLC-Ladder-Editor.pdb
 D:\REPOSITÓRIOS\PLC-Ladder-Editor\PLC-Ladder-Editor\obj\Debug\net6.0-windows\PLC-Ladder-Editor.sourcelink.json
 D:\REPOSITÓRIOS\PLC-Ladder-Editor\PLC-Ladder-Editor\obj\Debug\net6.0-windows\PLC-Ladder-Editor.pdb
+D:\REPOSITORIOS\PLC-Ladder-Editor\PLC-Ladder-Editor\bin\Debug\net6.0-windows\PLC-Ladder-Editor.pdb
+D:\REPOSITORIOS\PLC-Ladder-Editor\PLC-Ladder-Editor\obj\Debug\net6.0-windows\PLC-Ladder-Editor.sourcelink.json
+D:\REPOSITORIOS\PLC-Ladder-Editor\PLC-Ladder-Editor\obj\Debug\net6.0-windows\PLC-Ladder-Editor.pdb
