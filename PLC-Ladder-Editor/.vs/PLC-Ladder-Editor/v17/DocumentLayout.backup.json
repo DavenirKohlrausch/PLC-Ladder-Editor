@@ -43,12 +43,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 5,
@@ -70,8 +66,7 @@
               "RelativeToolTip": "..\\CustomUserControls\\CustomTitleBar.xaml.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAAABgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T02:37:04.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-19T02:37:04.432Z"
             },
             {
               "$type": "Document",
@@ -83,8 +78,7 @@
               "RelativeToolTip": "MainWindow.xaml.cs",
               "ViewState": "AgIAAKMAAAAAAAAAAAASwF8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T01:12:45.554Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-08T01:12:45.554Z"
             },
             {
               "$type": "Document",
@@ -103,8 +97,8 @@
               "Title": "CustomTitleBar.xaml",
               "DocumentMoniker": "D:\\REPOSIT\u00D3RIOS\\PLC-Ladder-Editor\\CustomUserControls\\CustomTitleBar.xaml",
               "RelativeDocumentMoniker": "..\\CustomUserControls\\CustomTitleBar.xaml",
-              "ToolTip": "D:\\REPOSIT\u00D3RIOS\\PLC-Ladder-Editor\\CustomUserControls\\CustomTitleBar.xaml*",
-              "RelativeToolTip": "..\\CustomUserControls\\CustomTitleBar.xaml*",
+              "ToolTip": "D:\\REPOSIT\u00D3RIOS\\PLC-Ladder-Editor\\CustomUserControls\\CustomTitleBar.xaml",
+              "RelativeToolTip": "..\\CustomUserControls\\CustomTitleBar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-08-19T01:41:29.114Z",
               "EditorCaption": ""
@@ -118,8 +112,7 @@
               "ToolTip": "D:\\REPOSIT\u00D3RIOS\\PLC-Ladder-Editor\\CustomUserControls\\UserControlButton.xaml",
               "RelativeToolTip": "..\\CustomUserControls\\UserControlButton.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-14T02:38:08.228Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T02:38:08.228Z"
             },
             {
               "$type": "Document",
@@ -166,8 +159,15 @@
               "ToolTip": "D:\\REPOSIT\u00D3RIOS\\PLC-Ladder-Editor\\PLC-Ladder-Editor\\App.xaml",
               "RelativeToolTip": "App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-09T17:56:37.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-09T17:56:37.838Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         }
