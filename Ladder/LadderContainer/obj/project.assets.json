@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\REPOSITORIOS\\PLC-Ladder-Editor\\Ladder\\LadderContainer\\LadderContainer.csproj",
+      "projectUniqueName": "D:\\REPOSITÓRIOS\\PLC-Ladder-Editor\\Ladder\\LadderContainer\\LadderContainer.csproj",
       "projectName": "LadderContainer",
-      "projectPath": "D:\\REPOSITORIOS\\PLC-Ladder-Editor\\Ladder\\LadderContainer\\LadderContainer.csproj",
+      "projectPath": "D:\\REPOSITÓRIOS\\PLC-Ladder-Editor\\Ladder\\LadderContainer\\LadderContainer.csproj",
       "packagesPath": "C:\\Users\\daven\\.nuget\\packages\\",
-      "outputPath": "D:\\REPOSITORIOS\\PLC-Ladder-Editor\\Ladder\\LadderContainer\\obj\\",
+      "outputPath": "D:\\REPOSITÓRIOS\\PLC-Ladder-Editor\\Ladder\\LadderContainer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -75,7 +76,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

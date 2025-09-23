@@ -32,13 +32,16 @@
                 <Grid Margin="0,0,0,0">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto" x:Name="Title"  />
-                        <RowDefinition x:Name="body"  />
+                        <RowDefinition    />
                     </Grid.RowDefinitions>
                     <Grid Grid.Row="0" Margin="0,0,0,0" Height="Auto" Width="Auto">
                         <cc:CustomTitleBar x:Name="customTitleBar" />
+
                     </Grid>
                     <Grid Grid.Row="1" Margin="0,0,0,0" Height="Auto" Width="Auto" Background="Azure">
-                        <CustomUserControls:UsercontrolButton HorizontalAlignment="Left" Margin="245,158,0,0" VerticalAlignment="Top" Width="304"/>
+                        <CustomUserControls:UsercontrolButton HorizontalAlignment="Left" Margin="123,250,0,0" VerticalAlignment="Top" Width="304"/>
+                        <LadderContainer:LadderContainer HorizontalAlignment="Left" Margin="200,0,0,0" VerticalAlignment="Center" Height="116" Width="161"/>
+
 
                     </Grid>
                 </Grid>
